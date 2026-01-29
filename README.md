@@ -16,7 +16,25 @@ The goal is to transform heterogeneous raw data into a **reliable analytical dat
 - Support data-driven pricing and margin decisions
 
 ---
+## Technology Stack
 
+### Programming Language
+- **Python**
+
+### Data Analysis & Processing
+- **pandas**
+- **NumPy**
+
+### Visualization
+- **Matplotlib**
+- **Seaborn**
+
+### Tools & Environment
+- **Jupyter Notebook**
+- **Git**
+- **GitHub**
+
+---
 ## Project Structure
 
 The repository follows a clear, analysis-oriented structure:
