@@ -1,41 +1,41 @@
-# Discount- & Umsatzanalyse (ENIAC)
+# Discount & Revenue Analysis (ENIAC)
 
-Dieses Projekt analysiert das **Rabattverhalten im E-Commerce** und dessen Einfluss auf Umsatz und Produktkategorien.  
-Der Schwerpunkt liegt auf **Datenbereinigung, Feature Engineering und explorativer Datenanalyse** mit Python.
+This project analyzes **e-commerce discount behavior** and its impact on revenue and product categories.  
+The focus is on **data cleaning, feature engineering, and exploratory data analysis** using Python.
 
-Ziel ist es, aus heterogenen Rohdaten eine **belastbare Analysegrundlage** zu schaffen und daraus **geschäftsrelevante Erkenntnisse** abzuleiten.
-
----
-
-## Projektziel
-
-- Bereinigung und Standardisierung mehrerer Rohdatensätze
-- Identifikation und Behebung von Datenqualitätsproblemen
-- Aufbau eines konsolidierten Master-Datensatzes
-- Analyse von Rabattstruktur und Rabattintensität
-- Unterstützung datenbasierter Pricing- und Margenentscheidungen
+The goal is to transform heterogeneous raw data into a **reliable analytical dataset** and derive **business-relevant insights**.
 
 ---
 
-## Projektstruktur
+## Project Objectives
 
-Die Repository-Struktur ist bewusst klar und analyseorientiert aufgebaut:
+- Clean and standardize multiple raw datasets
+- Identify and resolve data quality issues
+- Build a consolidated master dataset
+- Analyze discount structure and discount intensity
+- Support data-driven pricing and margin decisions
+
+---
+
+## Project Structure
+
+The repository follows a clear, analysis-oriented structure:
 
 ```text
 .
 ├─ data/
-│  ├─ raw/          # Unveränderte Rohdaten (CSV-Dateien)
-│  └─ clean/        # Bereinigte und aufbereitete Datensätze
+│  ├─ raw/          # Original raw data (CSV files)
+│  └─ clean/        # Cleaned and prepared datasets
 │
 ├─ notebooks/
 │  └─ eniac_disc_analysis.ipynb
-│     # Datenbereinigung, Feature Engineering und Analyse
+│     # Data cleaning, feature engineering, and analysis
 │
 ├─ powerpoint/
 │  └─ presentation.pptx
-│     # Management- und Business-Präsentation der Ergebnisse
+│     # Management / business presentation of results
 │
 ├─ .gitattributes
-│  # Git-Konfiguration (z. B. für Notebook-Handling)
+│  # Git configuration (e.g., notebook handling)
 │
 └─ README.md
